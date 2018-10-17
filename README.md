@@ -1,6 +1,8 @@
 # Time-series-plots
-Creating time series plots for the Presidency project
 
+## Creating time series plots for the Presidency project
+
+```
 getwd()
 setwd("directory")
 
@@ -41,3 +43,4 @@ ts.plot(podesta_ts, access_ts, clinton_ts, gpars = list(col = c("purple","orange
 seqplot.ts(access_ts, podesta_ts, colx = "red", coly = "blue",
            main = "Coverage of Podesta Email Leak and Access Hollywood",
            xlab = "Days from October 1 (news breaks Oct 7)", ylab = "Number of Articles")
+```
